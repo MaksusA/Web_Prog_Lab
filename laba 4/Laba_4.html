@@ -1,0 +1,75 @@
+<html>
+    <head>
+
+    	<style>
+    		.dis{
+    			background: red;
+    			font-size: 24;
+    		}
+    		.dis2{
+    			background: lime;
+    			font-size: 20;
+    		}
+    		.dis3{
+    			background: gold;
+    			font-size: 14;
+    		}
+    	</style>
+
+	<script src="knopka1.js"></script>
+
+    </head>
+
+	<body>
+
+
+		<center>
+		<h1> НАТИСНИ НА МЕНЕ </h1>
+
+		<h2> Нансніть на PusH </h2>
+	
+		
+			<form>
+  				<input type="button" class="dis" name="abutton" value="PusH" id="my-button" onclick="next_1();"/>
+			</form>
+		
+		<center><p>Розпочати заново</p></center>
+
+		
+			<form>
+  				<input type="button" class="dis2" onclick="window.location.reload()"  value ="Заново" />
+			</form>
+			
+		<p>Вимкнути/ввімкнути кнопку PusH</p>
+			<form>
+  				<input type="button" class="dis3" onclick="lockButton()"  value ="off/on" />
+			</form>
+		
+		<p>Вимкнути/ввімкнути кнопку PusH</p>
+		
+			<button onclick="vivod()">Вивести масив кнопки</button>
+		</center>
+		<p id="out_arr"></p>
+		<br/>
+		<br/>
+		<center>
+			<h1> Створення та виведення масиву </h1>
+			<h1> з різними елементами </h1>
+			<form>
+  				<input type="text" id="f_dan"/>
+  				<input type="button" value="Додати до масиву" onclick="n_Mass()"/>
+  				<input type="button" value="Вивести створений масив" onclick="vivod_2()"/>
+  				<input type="button" value="Очистити масив" onclick="clear_Mass()"/>
+			</form>
+		</center>
+		<p id="out_arr_2"></p>
+
+
+
+
+
+
+	</body>
+
+	
+</html>
